@@ -52,5 +52,7 @@ US Hospitalization: [ArcGIS Hub](https://hub.arcgis.com/search) <br>
 5. Chae Young Lim <limc.stat@gmail.com>
 6. Anish Mukherjee <anishmk9@gmail.com>
 
+<b>Software:</b><br>
+
 <b>Terms of Use:</b><br>
 
