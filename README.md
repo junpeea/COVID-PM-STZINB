@@ -53,6 +53,7 @@ US Hospitalization: [ArcGIS Hub](https://hub.arcgis.com/search) <br>
 6. Anish Mukherjee <anishmk9@gmail.com>
 
 <b>Software:</b><br>
+https://sounakchakraborty.shinyapps.io/final_interface_software/
 
 <b>Terms of Use:</b><br>
 
