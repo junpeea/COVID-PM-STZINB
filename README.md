@@ -11,13 +11,13 @@ Our work is solely based on publicly available data in the USA. We, as a team re
 The whole world experienced a pandemic due to the outbreak of the COVID-19 dis-ease, caused by a virus called the Severe Acute Respiratory Syndrome Coronavirus2 (SARS-CoV-2). The United States is also severely experienced extensive mortalityfrom this disease. Several studies suggested that many of the pre-existing conditionsincreased the risk of death in those with COVID-19. The long-term exposure to theair pollutants is also proven to be one of the major causes behind this mortality. Inthis study, we have explored the relationship between long-term exposure to one ofthe well-known air pollutants, PM2.5and the mortality from the COVID-19 diseasewhile adjusting for several social and environmental factors. Since the COVID-19pandemic is highly spatial in nature of its association and spread pattern, we believetaking into account the spatial dependence of the disease spread process will be veryuseful. Also, as the disease is spread across time, there is a strong temporal natureof the data. Hence our belief is a spatio-temporal model which can take into accountthe complex spatial and temporal dependencies is essential to understand and inves-tigate the COVID-19. In that respect we are using a Bayesian Zero Inflated NegativeBinomial regression model where the spatial and temporal associations are modeledthrough random effects. Our model can capture the overall uncertainty pattern acrosstime and space. This uncertainty quantification taking into account the spatial corre-lation is an attractive novelty of our approach. We have applied our model on a fewstates where the mortality rates are high compared to the other states of the US. Asa part of this study, we have developed a user friendly R tool which can be used toget inference from any state of the US. Along with that, application can also be car-ried out on the entire US data with aggregated state level information (i.e. work withstate level COVID-19 counts).
 
 <b>Summary Results: </b><br>
-![](./Paper_work/Table4.PNG)
+![](./Paper_work/Table4.PNG) <br>
 Table4. The results of effect estimation on the expected COVID-19 weekly death counts among the four states (Illinois,Washington, Florida, and California)
 
-![](./Paper_work/Table6.PNG)
+![](./Paper_work/Table6.PNG) <br>
 TABLE 6. The estimated nonlinear fixed time effect in the Negative Binomial component (the COVID-19 death counts) fromthe selected models. The x-axis represents timeline (weeks). A blue line is the estimated time effect. A shaded area representsits 95% credible interval. A red dash line is a zero reference.
 
-![](./Paper_work/Table7.PNG)
+![](./Paper_work/Table7.PNG) <br>
 TABLE 7. Visualization of time-averaged COVID-19 death probability at risk using the selected STZINB models for the fourstates. (IL, WA, FL, CA)
 
 <b>Code: </b><br>
