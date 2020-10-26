@@ -21,15 +21,15 @@ TABLE 6. The estimated nonlinear fixed time effect in the Negative Binomial comp
 TABLE 7. Visualization of time-averaged COVID-19 death probability at risk using the selected STZINB models for the fourstates. (IL, WA, FL, CA)
 
 <b>Code: </b><br>
-[`Result_general.R`](https://github.com/junpeea/COVID-PM-STZINB/Papaer_work/Code/Reult_general.R) includes the code to provide main tables and figues in our Result session.
+[`Result_general.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Paper_work/Code/Result_general.R) includes the code to provide main tables and figues in our Result session.
 
-[`Result_CA.R`](https://github.com/junpeea/COVID-PM-STZINB/Papaer_work/Code/Reult_CA.R) includes the code to provide model outputs in our California study.
+[`Result_CA.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_CA.R) includes the code to provide model outputs in our California study.
 
-[`Result_FL.R`](https://github.com/junpeea/COVID-PM-STZINB/Papaer_work/Code/Reult_FL.R) includes the code to provide main results in our Florida study.
+[`Result_FL.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_FL.R) includes the code to provide main results in our Florida study.
 
-[`Result_IL.R`](https://github.com/junpeea/COVID-PM-STZINB/Papaer_work/Code/Reult_IL.R) includes the code to provide main results in our Illinois study.
+[`Result_IL.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_IL.R) includes the code to provide main results in our Illinois study.
 
-[`Result_WA.R`](https://github.com/junpeea/COVID-PM-STZINB/Papaer_work/Code/Reult_WA.R) includes the code to provide main results in our Washington study.
+[`Result_WA.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_WA.R) includes the code to provide main results in our Washington study.
 
 <b>Data: </b><br>
 
