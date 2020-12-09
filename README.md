@@ -29,7 +29,7 @@ TABLE 7. Visualization of time-averaged COVID-19 death probability at risk using
 
 [`Result_IL.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_IL.R) includes the code to provide main results in our Illinois study.
 
-[`Result_WA.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_WA.R) includes the code to provide main results in our Washington study.
+[`Result_GA.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_WA.R) includes the code to provide main results in our Georgia study.
 
 <b>Data: </b><br>
 
@@ -43,17 +43,3 @@ COVID-19 data source 1: [The COVID Tracking Project](https://covidtracking.com/)
 COVID-19 data source 2: [2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE ](https://github.com/CSSEGISandData/COVID-19)<br>
 PM2.5 data source: [Public available code and data to Reproduce Analyses in <Exposure to air pollution and COVID-19 mortality in the United States>](https://github.com/wxwx1993/PM_COVID) <br>
 US Hospitalization: [ArcGIS Hub](https://hub.arcgis.com/search) <br>
-
-<b>Contact Us: </b><br>
-1. Sounak Chakraborty <chakrabortys@missouri.edu>
-2. Tanujit Dey <tanujit.dey@gmail.com>
-3. Francesca Dominici <fdominic@hsph.harvard.edu>
-4. Yoon-Bae Jun <junpeea@gmail.com>
-5. Chae Young Lim <limc.stat@gmail.com>
-6. Anish Mukherjee <anishmk9@gmail.com>
-
-<b>Software:</b><br>
-https://sounakchakraborty.shinyapps.io/final_interface_software/
-
-<b>Terms of Use:</b><br>
-
