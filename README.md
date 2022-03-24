@@ -18,10 +18,10 @@ Table 1. Summary statistics for the four regions
 Table 3. Point estimates and 95\% credible intervals of the fixed effects for the expected COVID-19 death counts
 
 ![](./Paper_work/Figure2.PNG) <br>
-Figure2. Visualization of time-averged probability at COVID-death risk for the four regions
+Figure 2. Visualization of time-averged probability at COVID-death risk for the four regions
 
 ![](./Paper_work/Figure3.PNG) <br>
-Figure3. he median value of estimated nonlinear mixed time effect in the negative binomial component (the COVID-19 death counts) using the selected model structure
+Figure 3. he median value of estimated nonlinear mixed time effect in the negative binomial component (the COVID-19 death counts) using the selected model structure
 
 
 
