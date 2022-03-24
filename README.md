@@ -11,25 +11,30 @@ Our work is solely based on publicly available data in the USA. We, as a team re
 The whole world experienced a pandemic due to the outbreak of the COVID-19 dis-ease, caused by a virus called the Severe Acute Respiratory Syndrome Coronavirus2 (SARS-CoV-2). The United States is also severely experienced extensive mortalityfrom this disease. Several studies suggested that many of the pre-existing conditionsincreased the risk of death in those with COVID-19. The long-term exposure to theair pollutants is also proven to be one of the major causes behind this mortality. Inthis study, we have explored the relationship between long-term exposure to one ofthe well-known air pollutants, PM2.5and the mortality from the COVID-19 diseasewhile adjusting for several social and environmental factors. Since the COVID-19pandemic is highly spatial in nature of its association and spread pattern, we believetaking into account the spatial dependence of the disease spread process will be veryuseful. Also, as the disease is spread across time, there is a strong temporal natureof the data. Hence our belief is a spatio-temporal model which can take into accountthe complex spatial and temporal dependencies is essential to understand and inves-tigate the COVID-19. In that respect we are using a Bayesian Zero Inflated NegativeBinomial regression model where the spatial and temporal associations are modeledthrough random effects. Our model can capture the overall uncertainty pattern acrosstime and space. This uncertainty quantification taking into account the spatial corre-lation is an attractive novelty of our approach. We have applied our model on a fewstates where the mortality rates are high compared to the other states of the US. Asa part of this study, we have developed a user friendly R tool which can be used toget inference from any state of the US. Along with that, application can also be car-ried out on the entire US data with aggregated state level information (i.e. work withstate level COVID-19 counts).
 
 <b>Summary Results: </b><br>
-![](./Paper_work/Table4.PNG) <br>
-Table4. The results of effect estimation on the expected COVID-19 weekly death counts among the four states (Illinois,Washington, Florida, and California)
+![](./Paper_work/Table1.PNG) <br>
+Table 1. Summary statistics for the four regions
 
-![](./Paper_work/Table6.PNG) <br>
-TABLE 6. The estimated nonlinear fixed time effect in the Negative Binomial component (the COVID-19 death counts) fromthe selected models. The x-axis represents timeline (weeks). A blue line is the estimated time effect. A shaded area representsits 95% credible interval. A red dash line is a zero reference.
+![](./Paper_work/Table3.PNG) <br>
+TABLE 3. Point estimates and 95\% credible intervals of the fixed effects for the expected COVID-19 death counts
 
-![](./Paper_work/Table7.PNG) <br>
-TABLE 7. Visualization of time-averaged COVID-19 death probability at risk using the selected STZINB models for the fourstates. (IL, WA, FL, CA)
+![](./Paper_work/Figure2.PNG) <br>
+Figure2. Visualization of time-averged probability at COVID-death risk for the four regions
+
+![](./Paper_work/Figure3.PNG) <br>
+Figure3. he median value of estimated nonlinear mixed time effect in the negative binomial component (the COVID-19 death counts) using the selected model structure
+
+
 
 <b>Code: </b><br>
 [`Result_general.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Paper_work/Code/Result_general.R) includes the code to provide main tables and figues in our Result session.
 
-[`Result_CA.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_CA.R) includes the code to provide model outputs in our California study.
+[`Result 210401 Div2(NJ,NY,PA).R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Result 210401 Div2(NJ,NY,PA).R) includes the code to provide model outputs in the Mid-Atlantic (New Jersey, New York, and Pennsylvania) study.
 
-[`Result_FL.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_FL.R) includes the code to provide main results in our Florida study.
+[`Result 210401 Div4(IA,KS,MO,NE,ND,SD).R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Result 210401 Div4(IA,KS,MO,NE,ND,SD).R) includes the code to provide main results in the Midwest (Iowa, Kansas, Missouri, Nebraska, North Dakota, and South Dakota) study.
 
-[`Result_IL.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_IL.R) includes the code to provide main results in our Illinois study.
+[`Result 210401 Div5(GA,FL,NC,SC).R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Result 210401 Div5(GA,FL,NC,SC).R) includes the code to provide main results in the South Atlantic (Florida, Georgia, North Carolina, and South Carolina) study.
 
-[`Result_GA.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Reult_WA.R) includes the code to provide main results in our Georgia study.
+[`Result 210401 Div9(CA,OR,WA).R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Result 210401 Div9(CA,OR,WA).R) includes the code to provide main results in the Pacific (California, Oregon, and Washington) study.
 
 <b>Data: </b><br>
 
