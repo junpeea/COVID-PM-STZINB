@@ -15,10 +15,10 @@ The whole world experienced a pandemic due to the outbreak of the COVID-19 dis-e
 Table 1 shows summary statistics of our data for the four regions in the USA.
 
 ![](./Paper_work/Table_3.png) <br>
-Table 3. Point estimates and 95\% credible intervals of the fixed effects for the expected COVID-19 death counts
+Table 3 describes the estimated coefficients and their 95% credible intervals of the covariates on COVID-19 weekly death counts.
 
 ![](./Paper_work/Figure_2.png) <br>
-Figure 2. Visualization of time-averged probability at COVID-death risk for the four regions
+Figure 2 shows the time-averaged COVID-19 weekly death probability at risk.
 
 
 <b>Code: </b><br>
